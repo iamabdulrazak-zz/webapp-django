@@ -57,9 +57,9 @@ WSGI_APPLICATION = 'mycvsite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.mysql',
-        'NAME':'mysite',
-        'USER':'zaak',
-        'PASSWORD':'Zaak1234@',
+        'NAME':'your database name',
+        'USER':'your user name',
+        'PASSWORD':'the password for your user',
         'HOST':'localhost',
         'PORT':'',
     }
