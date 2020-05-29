@@ -1,0 +1,94 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Zak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-dark" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/zak.jpg' %}"><hr>
+                    <h4>Hi I'm Zak</h4>
+                    <p>Sr. Software Engineer @linkersIoT</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-dark">
+                    <h4>About Me</h4><hr><br>
+                    <p>Am Abdulrazak Osman, Student, Somalian, 22, Linux lover, data science specialist, obsessed with new technologies and AI enthusiastic.
+                    Love learning new tech stuff, creating complex projects and doing researches. Sometimes i wrote
+                    articles about my learning journey through everything!😊 </p><br><br>
+
+                    <ul class="social-links">
+						<li><a href="https://github.com/iamabdulrazak"><img class="social" src="{% static 'images/github.png' %}"> GitHub</a></li>
+						<li><a href="https://www.linkedin.com/in/zaak0"><img class="social" src="{% static 'images/linkedin.png' %}"> Linkedin</a></li>
+						<li><a href="https://twitter.com/zaak_0"><img class="social" src="{% static 'images/twitter.png' %}"> Twitter</a></li>
+						<li><a href="https://www.facebook.com/zaak000"><img class="social" src="{% static 'images/facebook.png' %}"> Facebook</a></li>
+					</ul>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-dark">
+                    <h5>My Experience</h5><hr>
+                    <p><b>Sr. Software Engineer @LinkersIoT, KSA</b></p>
+                    <p>Working on designing, building and maintaining databases, worked
+                    with APIs and backend engineering. Built WebApps with modern
+                    frameworks and tools.</p><hr>
+
+                    <p><b>Former Android Developer Intern @SAMA Solution, Jordan</b></p>
+                    <p>My work was designing and developing advanced android applicatios,
+                        bug fixing and improving application performance.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-dark">
+                     <h5>My Experience</h5><hr>
+                     <p><b>Former Front-end Web Developer Intern @SkyTech, Jordan</b></p>
+                     <p>My work was ensuring user experience, developing features to enhance
+                        the user experience and building reusable code for future use.</p><hr>
+
+                    <p><b>Full-stack Freelancer @Freelance, KSA</b></p>
+                    <p>Worked on several projects developing and designing full-stack web, mobile and desktop
+                        applications. Recently am working on computer vision project.</p>
+                </div>
+            </div>
+        </div><br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-dark">
+                    <h5>What I Know?</h5><hr>
+                    <p>Python(v2.* or v3.*), Django(v3.*), WebApps(HTML,CSS/SCSS,JS), Databases(Microsoft SQL 2016, MySQL, PostgreSQL),
+                        Cloud Computing(Microsoft Azure, Google Cloud Platform), VPS Services(Vultr) and APIs(RESTful APIs, Django Rest APIs) and a
+                        whole bunch more!🔥🔥</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-dark">
+                    <h5>Contact Me</h5><hr>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static '/images/phone-ringing.png' %}"><b> 00966547079680</b></li><br>
+                        <li><img class="social" src="{% static '/images/email.png' %}"><b> zaak0101@hotmail.com</b></li><br>
+                        <li><img class="social" src="{% static '/images/location.png' %}"><b> Saudi Arabia, Riyadh</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div><br>
+    </div>
+</body>
+</html>
